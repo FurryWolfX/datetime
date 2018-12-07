@@ -1,0 +1,13 @@
+{
+  "name": "@wolfx/datetime",
+  "version": "1.0.0",
+  "description": "datetime utils",
+  "main": "index.js",
+  "keywords": [
+    "datetime",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "wolfx",
+  "license": "MIT"
+}
