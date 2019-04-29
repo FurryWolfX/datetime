@@ -1,6 +1,6 @@
 "use strict";
 
-const datetime = require("./index");
+const datetime = require("../lib");
 
 //测试系统时间为 东8区
 
