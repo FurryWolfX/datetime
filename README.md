@@ -63,3 +63,9 @@ console.log(datetime.format(result, "yyyy-MM-dd hh:mm:ss")); // 2019-04-29 11:19
 result = datetime.minus(new Date("2019-04-29 11:20:00"), 1, "second");
 console.log(datetime.format(result, "yyyy-MM-dd hh:mm:ss")); // 2019-04-29 11:19:59
 ```
+
+# 计算指定月份的天数
+
+```javascript
+console.log(datetime.getMonthDay(2019, 1)); // 31
+```
