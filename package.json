@@ -1,8 +1,11 @@
 {
   "name": "@wolfx/datetime",
-  "version": "1.2.0",
+  "version": "1.2.3",
   "description": "datetime utils",
-  "main": "lib/index.js",
+  "main": "dist/Datetime.umd.js",
+  "scripts": {
+    "build": "webpack"
+  },
   "keywords": [
     "datetime",
     "nodejs",
@@ -16,7 +19,7 @@
     "babel-preset-env": "^1.6.0",
     "babel-preset-stage-3": "^6.24.1",
     "prettier": "^1.16.4",
-    "webpack": "^4.27.1",
-    "webpack-cli": "^3.3.1"
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
   }
 }
