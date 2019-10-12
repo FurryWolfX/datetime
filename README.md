@@ -5,7 +5,7 @@ npm install @wolfx/datetime --save
 ```
 
 ```javascript
-const datetime = require("@wolfx/datetime");
+const datetime = require("@wolfx/datetime").default;
 ```
 
 # 格式化

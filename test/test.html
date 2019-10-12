@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Title</title>
-  <script src="../dist/Datetime.umd.js"></script>
-</head>
-<body>
-<script>
-  var d = new Date();
-  var version = window.Datetime.format(d, "yyyyMMddhhmm")
-  console.log(version);
-</script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <script src="../dist/Datetime.umd.js"></script>
+  </head>
+  <body>
+    <script>
+      var d = new Date();
+      var version = window.Datetime.default.format(d, "yyyyMMddhhmm");
+      console.log(version);
+    </script>
+  </body>
 </html>
